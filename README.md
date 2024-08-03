@@ -1,10 +1,10 @@
 This project aims to explore the Walmart Sales data to identify causes for the underperformance of the low performing branches.Developed marketing strategies and recommended product selections to help low-performing branches achieve the sales trends and customer ratings of high-performing branches# Walmart-Sales-Data-Analysis.The aims is to study how sales strategies can be improved and optimized.
 The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows
 Analysis List
-Product Analysis
+#Product Analysis
 Conduct analysis on the data to understand the different product lines, the products lines performing best and the product lines that need to be improved.
 
-Sales Analysis
+#Sales Analysis
 This analysis aims to answer the question of the sales trends of product. The result of this can help use measure the effectiveness of each sales strategy the business applies and what modificatoins are needed to gain more sales.
 
 Customer Analysis
