@@ -9,14 +9,16 @@ GROUP BY
   BRANCH 
 ORDER BY 
   TOTAL_SALES DESC;
--- 2) Product Line Performance in the Lowest Sales Branch- a) Average Sales of Each Product Line in All Branches
+-- 2) Product Line Performance in the Lowest Sales Branch- 
+--a) Average Sales of Each Product Line in All Branches
 SELECT 
   PRODUCT_LINE, 
   AVG(COGS) AS AVG_SALES 
 FROM 
   SALES 
 GROUP BY 
-  PRODUCT_LINE -- b)CALCULATE SALES OF BRANCH B
+  PRODUCT_LINE 
+-- b)CALCULATE SALES OF BRANCH B
 SELECT 
   PRODUCT_LINE, 
   AVG(COGS) AS AVG_SALES_B 
@@ -25,7 +27,8 @@ FROM
 WHERE 
   BRANCH = 'B' 
 GROUP BY 
-  PRODUCT_LINE -- c) Compare Sales in 'Branch B' with Average Sales
+  PRODUCT_LINE 
+-- c) Compare Sales in 'Branch B' with Average Sales
 SELECT 
   PRODUCT_LINE, 
   AVG_SALES_B, 
